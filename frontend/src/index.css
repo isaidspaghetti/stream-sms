@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container .card {
+  border: 2px solid rgba(0, 0, 0, 0.699);
+  width: 500px;
+  margin: 24px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #b9b8d1;
+  padding: 24px 48px;
+}
+
+.container label {
+  font-size: 20px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.container .subtitle {
+  font-size: 14px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.container [type="text"],
+[type="email"] {
+  padding: 5px;
+  border: 2px solid lightgrey;
+  background: solid rgba(0, 0, 0, 0.003);
+  font-size: 16px;
+  margin-bottom: 5px;
+  text-align: center;
+  align-self: center;
+  width: 75%;
+}
+
+.container [type="submit"] {
+  position: relative;
+  margin: 12px;
+  align-self: center;
+  width: 80%;
+  height: 40px;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #137be493;
+  border: 0;
+  border-bottom: 2px solid #1d87eb;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #4882b9;
+  box-shadow: inset 0 -2px #4882b9;
+}
+
+.stream-header {
+ padding: 5px;
+ min-height: 40px;
+ display: flex;
+ align-items: center;
+ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+ background: #9ec0f0;
+ box-shadow: 0 1px 1px 0 rgba(0,0,0,.14);
+ justify-content: space-between;
+}
+  
+.header-title{
+  background-color: #9ec0f070;
+  text-align: center;
+  margin: 0;
+  padding: 20px 40px 20px 30px;
+}
+
+.header-subtitle{
+  width: 100%;
+  background-color: #9ec0f0;
+  text-align: center;
+  margin: 0;
+}
+  
+.header-input{
+  display: flex; 
+  margin: 5px;
+  flex: 1
+}
+
+
